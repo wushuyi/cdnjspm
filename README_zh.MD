@@ -13,6 +13,9 @@ cdnjspm 目前只能支持 python3
 
 ### 从源代码安装
 ```bash
+pip install .
+```
+```bash
 python setup.py install
 ```
 

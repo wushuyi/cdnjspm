@@ -12,6 +12,9 @@ cdnjspm only run in python3
 
 ### Installing from source
 ```bash
+pip install .
+```
+```bash
 python setup.py install
 ```
 
