@@ -1,25 +1,25 @@
 #cdnjspm
-####cdnjspm is a package manager for  [cdnjs](https://cdnjs.com/).
+####cdnjspm 是用于下载  [cdnjs](https://cdnjs.com/) 资源的包管理器.
 
-bower and npm always download many, annoying junk files.
+bower 和 npm 总是下载一些无关紧要的文件.
 
-cdnjspm can download only the necessary files.
+cdnjspm 能只下载必须的文件.
 
-file path seamless handover with cdnjs.cloudflare.com.
-#How to use
+文件路径可以与 cdnjs 资源无缝切换.
 
-cdnjspm only run in python3
+#怎么用
 
-### Installing from source
+cdnjspm 目前只能支持 python3
+
+### 从源代码安装
 ```bash
 python setup.py install
 ```
 
-## search package name
+## 搜索包名字
 
 ```bash
 $ cdnjspm search jquery
-
 jquery
 jquery-compat
 jquery.pjax
@@ -28,7 +28,8 @@ jqueryui
 jquery-cookie
 ...
 ```
-## show package versions
+
+## 查看包版本
 ```bash
 $ cdnjspm show jquery
 
@@ -41,7 +42,7 @@ $ cdnjspm show jquery
 ...
 ```
 
-## install package
+## 安装包
 ```bash
 $ cdnjspm install jquery 2.2.4
 
@@ -54,9 +55,10 @@ Downloading ./jquery/2.2.4/jquery.min.map ... Done.
 Successfully installed.
 ```
 
-### more help
+### 更多帮助
 ```bash
 cdnjspm --help
 ```
 
-##### Currently only implements the basic function of the latter will slowly improving
+
+##### 目前只是实现了基础功能后期会慢慢完善
